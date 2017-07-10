@@ -13,17 +13,17 @@ export class DashboardComponent implements OnInit {
 
     constructor() {
         this.sliders.push({
-            imagePath: 'assets/images/slider1.jpg',
-            label: 'First slide label',
-            text: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+            imagePath: 'assets/images/jewellary.jpg',
+            label: 'Jewellary at Proddatur',
+            text: 'The Second Bombey has its own uniqueness in making jewellary, checkout here for the best jewellary stores in Proddatur.'
         }, {
-            imagePath: 'assets/images/slider2.jpg',
-            label: 'Second slide label',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+            imagePath: 'assets/images/fashion.jpg',
+            label: 'Fashion at Proddatur',
+            text: 'Fashion is not necessarily about labels. It’s not about brands. It’s about something else that comes from within you.'
         }, {
-            imagePath: 'assets/images/slider3.jpg',
-            label: 'Third slide label',
-            text: 'Praesent commodo cursus magna, vel scelerisque nisl consectetur.'
+            imagePath: 'assets/images/food.jpg',
+            label: 'Food and Restaurants',
+            text: 'Find out the great and delicious Rayalaseema Food and Restaurants.'
         });
 
         this.alerts.push({
