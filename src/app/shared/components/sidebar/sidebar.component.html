@@ -1,10 +1,10 @@
 <nav class="sidebar" [ngClass]="{sidebarPushRight: isActive}">
     <ul class="list-group">
         <a routerLink="/home" [routerLinkActive]="['router-link-active']" class="list-group-item">
-            <i class="fa fa-fw fa-dashboard"></i>&nbsp;{{ 'dashboard' | translate }}
+            <i class="fa fa-fw fa-home"></i>&nbsp;{{ 'dashboard' | translate }}
         </a>
         <a [routerLink]="['/jewellery']" [routerLinkActive]="['router-link-active']" class="list-group-item">
-            <i class="fa fa-fw fa-bar-chart-o"></i>&nbsp;{{ 'charts' | translate }}
+            <i class="fa fa-fw fa-dashboard"></i>&nbsp;{{ 'charts' | translate }}
         </a>
         <a [routerLink]="['/fashion']" [routerLinkActive]="['router-link-active']" class="list-group-item">
             <i class="fa fa-fw fa-table"></i>&nbsp;{{ 'tables' | translate }}
