@@ -47,7 +47,7 @@ $topnav-background-color: #222;
 .messages {
     width: 300px;
     .media {
-        border-bottom: 1px solid #DDD;
+        border-bottom: 1px solid #222;
         padding: 5px 10px;
         &:last-child {
             border-bottom: none;
@@ -70,3 +70,23 @@ $topnav-background-color: #222;
 .header .navbar {
     background: $topnav-background-color !important;
 }
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-toggler{
+    // color:#fe5000;
+    font-size: 30px;
+}
+.header{
+    border-bottom: 3px solid #222;
+}
+.navbar-nav{
+    li{
+        margin-left: 20px;
+        font-weight: bold;
+        a{
+            color: #fff;
+        }
+    }
+    
+    margin-right: 20px;
+}
+
+

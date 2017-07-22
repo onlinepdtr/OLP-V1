@@ -3,7 +3,7 @@ $topnav-background-color: #222;
     border-radius: 0;
     position: fixed;
     z-index: 1000;
-    top: 55px;
+    top: 69px;
     left: 235px;
     width: 235px;
     margin-left: -235px;
@@ -110,9 +110,17 @@ $topnav-background-color: #222;
             height: auto;
             li {
                 a {
-                    color: #FFF;
+                    color: #999;
                     padding: 10px;
                     display: block;
+                }
+                a:hover {
+                    background: darken($topnav-background-color, 5%);
+                    color: #fff;
+                }
+                a.router-link-active {
+                    background: darken($topnav-background-color, 5%);
+                    color: #fff;
                 }
             }
         }
@@ -120,7 +128,7 @@ $topnav-background-color: #222;
 }
 @media screen and (max-width: 992px) {
     .sidebar {
-        top: 54px;
+        top: 69px;
         left: 0px;
     }
 }
