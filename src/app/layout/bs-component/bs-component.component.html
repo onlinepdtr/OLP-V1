@@ -1,5 +1,30 @@
-<div [@routerTransition]>
+<div>
     <app-page-header [heading]="'Food & Restaurants'" [icon]="'fa-th-list'"></app-page-header>
-    <div class="row">
-    </div>
+        <div class="food-container">
+        <div class="row j-tile">
+            <div class="col-sm-6 col-xs-12"> 
+                <img  class="img-thumbnail" alt="" src="assets/images/royal-county.jpg">
+            </div>
+                <div class="col-sm-6 col-xs-12"> 
+                    <h1 class="shop-name">Royal County Resorts</h1>
+                    <p>The Royal County Resort Club! More precisely an uncompromising destination of luxury and comfort!</p>
+                    <span>Sy No 296/1 & 296/2, Bollavaram (near Chowtapalli),</span>
+                    <br/>
+                    <span> Proddatur - 516360, YSR (Kadapa) dist, AP.</span>
+                    <br>
+                    <br>
+                    <p>
+                        <button type="button" class="btn btn-primary" (click)="isCollapsed = !isCollapsed"
+                            [attr.aria-expanded]="!isCollapsed" aria-controls="royalCountyBooking">
+                            Bookings
+                        </button>
+                    </p>
+                </div>
+           <div class = "col-sm-12" id="royalCountyBooking" [ngbCollapse]="!isCollapsed">
+                <div class="col-sm-12 ">
+                    <iframe class = "rc-booking" src="http://royalcounty.in/bookings/index.html" height="800px" width="100%"></iframe> 
+                </div>
+            </div>
+
+        </div>
 </div>

@@ -15,6 +15,8 @@ const routes: Routes = [
             { path: 'components', loadChildren: './bs-component/bs-component.module#BsComponentModule' },
             { path: 'blank-page', loadChildren: './blank-page/blank-page.module#BlankPageModule' },
             { path: 'contact-us', loadChildren: './contact-us/contact-us.module#ContactUsModule' },
+            { path: 'about-us', loadChildren: './about-us/about-us.module#AboutUsModule' },
+            { path: 'about-pdtr', loadChildren: './about-pdtr/about-pdtr.module#AboutPdtrModule' },
         ]
     }
 ];
